@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>form</title>
+	<meta charset="utf-8">
+</head>
+<body>
+<form name="form" action="form.php" method="POST">
+	<!-- Cho phép người dùng nhập thông tin -->
+	Họ tên: <input type="text" name="hoTen" value="Dũng" placeholder="Nhập họ tên vào đấy....">
+	<!-- Cho phép người dùng nhập nhiều lựa chọn -->
+	<br>Thời gian học khóa Font End: <br>
+	<input type="checkbox" name="Thời gian học" value="2">Thứ 2
+	<input type="checkbox" name="Thời gian học" value="3">Thứ 3
+	<input type="checkbox" name="Thời gian học" value="4">Thứ 4 <br>
+	<input type="checkbox" name="Thời gian học" value="5">Thứ 5
+	<input type="checkbox" name="Thời gian học" value="6">Thứ 6
+	<input type="checkbox" name="Thời gian học" value="7" checked="">Thứ 7 <br> <!-- auto mặc định thứ 7 -->
+	<input type="checkbox" name="Thời gian học" value="CN">Chủ Nhật
+	<!-- 1 lựa chọn -->
+	<br>Giới tính: <br>
+	<input type="radio" name="gioiTinh" value="nam" placeholder="">Nam
+	<input type="radio" name="gioiTinh" value="nu" placeholder="" checked="">Nữ <!-- Chọn checked="" auto mặc định là Nữ -->
+	<!-- Mật khẩu -->
+	<br>Mật khẩu: 
+	<input type="password" name="matKhau" value="" placeholder=""> <br>
+	<br>Hồ sơ đính kém:
+	<input type="file" name="hoSo" value="" placeholder="">
+	<!-- 1 lựa chọn có nhiều thông tin -->
+	<br>Ngày sinh:
+	<input type="date" name="ngaySinh" value="" placeholder="">
+	<br>Tỉnh:
+	<select name="tỉnh" multiple="">
+		<option value="Hà Nội" selected="">Hà Nội</option> <!-- Selected sẽ chọn mặc định là Hà Nội -->
+		<option value="Hải Phòng">Hải Phòng</option>
+		<option value="Quảng Ninh">Quảng Ninh</option>
+		<option value="Lào Cai">Lào Cai</option>
+	</select>
+	<br>Ý kiến:
+	<textarea name="yKiến" rows="5" cols="50">Ý kiến khác</textarea>
+	<input type="reset" name="nhapLai" value="Nhập lại">
+	<input type="button" name="guidangKy" value="Gửi đăng ký"> <!-- Khi không liên quan đến form thì dùng type="button" -->
+	<input type="submit" name="Khác" value="Gửi đăng ký"> <!-- Khi nào liên quan đến form dùng type="submit" -->
+</form>
+</body>
+</html>

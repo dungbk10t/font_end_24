@@ -1,0 +1,64 @@
+T4,20/2/2019
+Buổi 1: HTML
++Đặt tên file: <Name>.html
++html + CRTL+space => Để ra bộ khung html
++search: mã màu html:http://mamauhtml-css.vpssim.vn/
++bgcolor = "#D0F5A9" => màu nền
++background="" thêm ảnh:
+	../dog.jpg :file dog nằm ngoài file hmtl
+	dog.jpg :file dog cùng thư mục với html
+	anh/dog.jpg: file dog kém bậc với html
+2.Thẻ <p></p>: Thể hiện 1 đoạn văn	
+	+ < align="">: căn lề
+	+ <br>: thẻ xuống dòng (break)
+	+ nbsp; : dấu cách
+	+ &copy; : gõ chữ C còng
+3. Thẻ <hr>
+VD:<hr size="10px" width="200px" color="red" align="left">
+trong đó:
+	size: kích thức
+	width: chiều rông
+	color: màu
+	align: lề
+Ctrl + / :commment
+Fort mat: Crtl A -> CRTL + shift +  P	
+ul,li:là dạng danh sách không có thứ tự 
+li: list-item
+ol,li: danh sách có số thứ tự
+4.
+<b>In dam</b>
+<i>In nghieng</i>
+<u>Gach chan</u>
+<s>Gach ngang</s>
+H<sub>2</sub>0
+X<sup>3</sup>
+=>OUTPUT:In dam In nghieng Gach chan Gach ngang H20 Xmu3
+Có thể lồng cách thể: Vd vừa đạm vừa nghiêng
+5. Thẻ <font></font>
+VD:<font face="Arial" size="13" color="red"></font>
+font Arial, size 13, màu đỏ
+6.
+Đặc Điểm:In đậm, tự động xuống dòng, size nhỏ dần h1->h6
+<h1>Thẻ h1</h1>
+<h2>Thẻ h2</h2>
+<h3>Thẻ h3</h3>
+<h4>Thẻ h4</h4>
+<h5>Thẻ h5</h5>
+<h6>Thẻ h6</h6>
+
+h1->h6,p:nhóm xuống dòng
+b,i,u,s: nhóm trên 1 dòng =>inline
+7.<center></center> Căn toàn bộ nội dùng bên trong thẻ cnter ra giữa
+8.Thẻ Link liên kết:
+<a href=""></a>
+<a href="https://dantri.com.vn/" target="_blank" title="Day la trang dan tri">Click vao day</a>	
+	+target="_blank: mở link ra tab mới
+	+
+9.Thẻ ảnh: <img src="" width="" height="">
+<img src="anh/dog.jpg" width="200px" height="200px alt="anh khong ton tai">
+	width: chiều rộng
+	height: Chiều dài
+	alt:commnet ra nếu ảnh không tồn tại
+10.
+<div></div> : xuống dòng: để định nghũa khối
+<span></span>: không xuống dòng

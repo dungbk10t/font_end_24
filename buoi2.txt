@@ -1,0 +1,21 @@
+T7,21/2/2019
+Buổi 2:
+<meta charset="utf-8">
+để set tiếng Việt
+1.Thẻ <table></table>
+Tạo 1 bảng 5 hàng 4 cột:
+5 <tr></tr>. Mỗi <tr> gồm 2 <td>
+3. Thẻ <input></input>
+placeholder: Thông tin gợi ý cho người dùng
+name: 
+
+<input type="radio" name="gioiTinh" value="nam" placeholder="">Nam
+<input type="radio" name="gioiTinh" value="nu" placeholder="">Nữ
+nếu phần name để tên khác nhau thì nó sẽ chọn 1 trong 2
+
+4.<select name="tỉnh" multiple="">
+Nếu để multiple="" sẽ cho phép chọn nhiều lựa chọn
+
+
+
+	
