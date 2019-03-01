@@ -14,3 +14,28 @@
   cursor: pointer;
   float: left;
 }
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("image/tuyet.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body{
+      background-image:url(image/t);
+    }
+.image_menu_bar{
+    width:width="150";
+    height:100%; 
+    background-image: url(image/menu_bar.gif);
+}    
