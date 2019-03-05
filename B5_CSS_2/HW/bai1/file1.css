@@ -1,0 +1,46 @@
+ul,li{
+	list-style: none;
+}
+#danhmuc-tinquocte
+{
+	width: 100px; 
+}
+.menu{
+	width: 70px; 
+	height: 45px;
+	border:1px solid rgb(144, 201, 90);  
+	padding: 2px;
+	line-height: 50px; /*?*/
+	text-align: center;
+	background-color: #90c95a;	/*lightblue;*/
+}
+.menu-lv1{
+	float:left;
+	position: relative;
+}   
+.menu-lv2{
+	width: 160px; 
+}
+.paren-lv2{
+	display: none;
+	position: absolute;
+    top: 50px;
+    left: -41px;
+}
+.menu-lv1:hover .paren-lv2{
+	display: block;
+}
+.menu:hover{
+	background-color: #78b43d;/*lightgreen;*/
+}
+#icon_search{
+	width:140px;
+}
+.hdr {
+    width: 100%;
+    position: initial;
+    height: 50px;
+    background: #78b43d;
+    margin: 0 auto;
+    background-attachment: scroll!important;
+}
