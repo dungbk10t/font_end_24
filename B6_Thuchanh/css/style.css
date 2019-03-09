@@ -1,0 +1,147 @@
+*{
+	margin:0;
+	padding:0;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color:black;
+}
+.full{
+	width: 100%;
+}
+.container{
+	width: 80%;
+	margin:0 auto;
+}
+.left{
+	float:left;
+}
+.right{
+	float:right;
+}
+#magazine{
+	height: 30px;
+	background-color: black;
+	
+}
+#logo{
+	height: 80px;
+	background-color: #f3ae20;
+}
+#menu{
+	height: 48px;
+    background-color: red;
+}
+#truy-cap-nhanh > li{
+	background-color: red;
+}
+#truy-cap-nhanh  li{
+	float:left;
+	padding: 5px;
+	text-transform: uppercase;
+	font-size: 13px;
+}
+#truy-cap-nhanh a{
+color:white !important;
+}
+#truy-cap-nhanh .fa-star{
+	color: orange;
+	margin-right: 4px;
+}
+#search{
+	position: relative;
+}
+#search .fa-search{
+	position: absolute;
+	top:6px;
+	left: 154px;
+}
+#search input{
+	margin-top: 5px;
+}
+#logo img{
+	height: 50px;
+	width: 60px;
+}
+#logo ul{
+	margin: 15px 20px;
+	
+}
+#logo ul li {
+    margin-left: 9px;
+    float: left;
+    border: 2px solid white;
+    border-radius: 30px;
+    height: 30px;
+    line-height: 30px;
+    padding: 7px;
+}
+#logo a, #menu a, #truy-cap-nhanh a{
+	color:white !important;
+}
+#menu li{
+	float:left;
+	padding:15px;
+}
+#menu li:hover{
+	background-color: red;
+}
+
+#grey{
+	background-color: #ccc;
+	height: 30px;
+}
+#tin-tuc{
+	margin-top: 10px;
+	width: 70%;
+}
+#ads{
+	margin-top: 10px;
+	width: 30%;
+}
+#tin-nong .left img{
+	width: 99%;
+    height: 350px;
+}
+#tin-nong .right img{
+	width: 94%;
+    height: 350px;
+}#tin-nong .right{
+	width: 30%;
+}
+#tin-nong .left{
+	width: 70%;
+}
+#tin-nong .right{
+	width: 30%;
+}
+#tin-lien-quan{
+	height: 200px;
+	margin-top: 50px;
+	clear:both;
+
+}
+#tin-lien-quan img{
+	width: 100%;
+	height: 200px;
+}
+.p-3{
+	display: inline-block;
+	width: 32%;
+	margin:2px;
+	
+}
+.middle{
+	margin-right: 13px;
+	margin-left: 13px;
+}
+#tin-nong h2,#tin-nong h4,#tin-lien-quan h4{
+	text-align: justify;
+}
+hr{
+	 border-width: 1px;
+	 display: block;
+}
